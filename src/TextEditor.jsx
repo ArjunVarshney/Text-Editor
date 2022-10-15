@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from "react";
+import React, { useCallback } from "react";
 import Quill from "quill";
 import "quill/dist/quill.snow.css";
 
@@ -9,6 +9,7 @@ const toolbarOptions = [
   [{ list: "ordered" }, { list: "bullet" }],
   [{ script: "sub" }, { script: "super" }],
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
+  ["link", "image", "video", "formula"],
   [{ color: [] }, { background: [] }],
   [{ font: [] }],
   [{ align: [] }],
